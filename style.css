@@ -1,0 +1,60 @@
+body {
+    background: #302c2b;
+    color: #fff;
+    font-family: "Henny Penny", sans-serif;
+    text-align: center;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    background: rgb(211, 204, 205);
+    color: #302c2b; 
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+
+  .doors {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .doors img, .ghosts img {
+    width: 200px;
+    flex: 1 0 50%;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(211, 204, 205);
+    color: #302c2b; 
+  }
+
+.button-5 {
+  background-color: #8e0e00;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  transition: all 250ms;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #7a1000;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
